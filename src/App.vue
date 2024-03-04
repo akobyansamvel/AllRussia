@@ -1,18 +1,23 @@
 <template>
-  <MoscowScreen/>
+  <div id="app">
+    <HeaderSide></HeaderSide>
+    <router-view></router-view>
+    <FooterSide></FooterSide>
+  </div>
 </template>
 
 <script>
-import MoscowScreen from './components/MoscowScreen.vue'
-
+import FooterSide from "./components/layouts/FooterSide.vue"
+import HeaderSide from "./components/layouts/HeaderSide.vue"
 export default {
   name: 'App',
   components: {
-    MoscowScreen
+    FooterSide,
+    HeaderSide
   }
 }
 </script>
 
 <style>
 
-</style>
+</style>./components/layouts/FooterSide.vue
