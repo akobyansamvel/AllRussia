@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from './components/HomePage.vue';
+import ArticlePolitic from './components/ArticlePolitic.vue';
 
 const router = createRouter({
   history: createWebHistory(),
@@ -9,6 +10,13 @@ const router = createRouter({
       name: 'Home',
       component: Home
     },
+    {
+      path: '/article',
+      name:'ArticlePolitic',
+      component: ArticlePolitic
+    },
+
+
   ]
 });
 
