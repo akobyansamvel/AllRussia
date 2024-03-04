@@ -8,7 +8,7 @@ import MoscowScreen from './components/MoscowScreen.vue'
 export default {
   name: 'App',
   components: {
-    MoscowScreen
+    MoscowScreen,
   }
 }
 </script>
