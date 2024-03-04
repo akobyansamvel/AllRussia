@@ -19,5 +19,7 @@ export default {
 </script>
 
 <style>
-
-</style>./components/layouts/FooterSide.vue
+ body {
+   margin:0;
+ }
+</style>
