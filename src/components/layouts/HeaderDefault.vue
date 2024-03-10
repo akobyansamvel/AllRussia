@@ -33,13 +33,17 @@
       </div>
 
     </header>
+    <div class="divider"></div>
+  <header-help></header-help>
   </div>
 </template>
 
 <script>
+import HeaderHelp from '@/components/headerHelp.vue';
 
 export default {
 name: 'HeaderSide',
+  components: { HeaderHelp }
 
 }
 </script>
@@ -92,6 +96,11 @@ name: 'HeaderSide',
   color: #FFFFFF;
   background-color: #333333;
   border: none;
+}
+
+.divider {
+  height: 2px; /* Толщина линии */
+  background-color: #FFFFFF; /* Цвет линии */
 }
 
 
