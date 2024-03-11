@@ -34,7 +34,7 @@ export default {
 <style scoped>
 
 .container {
-  max-width: 1440px;
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -61,7 +61,7 @@ h3 {
 
 .horizontal-line {
   height: 1px;
-  width: 1440px;
+  width: 1400px;
   background-color: #000;
   margin: 0 auto;
 }
@@ -70,7 +70,7 @@ h3 {
   width: 69px; /* ширина прямоугольника */
   height: 8px; /* высота прямоугольника */
   background-color: #AA0000; /* цвет фона прямоугольника */
-  margin-left: 40px;
+  margin-left: 60px;
   margin-bottom: 18px; /* изменено с 43px на 18px */
 }
 

@@ -3,6 +3,7 @@ import Home from './pages/HomePage.vue';
 import ArticlePolitic from './pages/ArticlePage.vue';
 import AboutPortal from './pages/AboutPage.vue';
 import Contact from './pages/ContactPage.vue';
+import MoscowScreen from './pages/MoscowScreen.vue';
 import '@/styles/main.css'
 
 
@@ -30,6 +31,12 @@ const router = createRouter({
       name: 'Contact',
       component: Contact
     },
+    {
+      path: '/moscow',
+      name: 'Moscow',
+      component: MoscowScreen
+    },
+
   ]
 });
 
