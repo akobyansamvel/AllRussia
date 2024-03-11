@@ -39,7 +39,7 @@
 </template>
 
 <script>
-import HeaderHelp from '@/components/headerHelp.vue';
+import HeaderHelp from '@/components/layouts/headerHelp.vue';
 
 export default {
 name: 'HeaderSide',

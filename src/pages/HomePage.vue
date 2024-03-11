@@ -1,45 +1,27 @@
 <template>
-    <div>
+    <div class="home">
       <main-section></main-section>
-      <div class="container">
-        <div class="item item_1">1</div>
-        <div class="item item_2">2</div>
-        <div class="item item_3">3</div>
-        <div class="item item_4">4</div>
-        <div class="item item_5">5</div>
-        <div class="item item_6">6</div>
-        <div class="item item_7">7</div>
-        <div class="item item_8">8</div>
-      </div>
+      <main-grid></main-grid>
+      <mainEconomic/>
+      <main-politic></main-politic>
     </div>
 </template>
 
 <script>
-import MainSection from '@/components/mainSection.vue';
+import mainEconomic from '@/components/Home/mainEconomic.vue';
+import MainSection from '@/components/Home/mainSection.vue';
+import mainGrid from '@/components/Home/mainGrid.vue';
+import mainPolitic from '@/components/Home/mainPolitic.vue';
+
 export default {
   name: 'MainPage',
-  components: { MainSection }
+  components: { MainSection, mainGrid, mainEconomic, mainPolitic },
 }
 </script>
 
-<style>
+<style scoped>
 
-.container {
-  margin: 80px 100px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: repeat(3, 400px);
-  grid-row-gap: 32px;
-  grid-column-gap: 20px;
+.home {
 }
-.item_1 {
-  grid-column: 1 / 4; /* Занимает первые три колонки первого ряда */
-}
-
-
-.item {
-  border: 1px solid black;
-}
-
 
 </style>
