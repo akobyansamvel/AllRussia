@@ -4,6 +4,8 @@ import ArticlePolitic from './components/ArticlePolitic.vue';
 import AboutPortal from './components/AboutPortal.vue';
 import Contact from './components/ContactPage.vue';
 import MoscowScreen from './components/MoscowScreen.vue';
+import PartnerPage from './components/PartnerPage.vue';
+
 
 
 const router = createRouter({
@@ -35,6 +37,12 @@ const router = createRouter({
       path: '/moscow',
       name: 'MoscowScreen',
       component: MoscowScreen
+    },
+
+    {
+      path: '/partner',
+      name: 'PartnerPage',
+      component: PartnerPage
     },
   ]
 });

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="main">
         <div class="wrapper">
             <div class="contact">
                 <span class="red-line"></span>
@@ -10,19 +10,30 @@
                 <p class="contact__text">Телефоны: +7 (495) 784-73-55; +7 (926) 393-40-64</p>
                 <img class="contact__img" src="../assets/map.png" alt="Map">
             </div>
+            <NavigationBar></NavigationBar>
         </div>
     </div>
 </template>
 
 <script>
+import NavigationBar from "./NavigationBar.vue"
+
+export default {
+  name: 'MainPage',
+  components: {
+    NavigationBar,
+  }
+}
 
 </script>
 
-<style class="scoped">
+<style scoped>
 
 .wrapper{
     max-width: 1440px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .contact{

@@ -22,4 +22,14 @@ export default {
  body {
    margin:0;
  }
+
+ .main{
+  margin-top: 20px;
+ }
+
+ .red-line{
+    width: 32px;
+    height: 8px;
+    background-color: red;
+}
 </style>

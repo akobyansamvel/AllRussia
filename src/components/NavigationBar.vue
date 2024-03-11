@@ -12,10 +12,10 @@
                             <router-link class="list__link" to="/about">О портале</router-link>
                         </li>
                         <li class="list__item">
-                            <router-link class="list__link" to="/">Партнеры</router-link>
+                            <router-link class="list__link" to="/partner">Партнеры</router-link>
                         </li>
                         <li class="list__item">
-                            <router-link class="list__link" to="/">Контакты</router-link>
+                            <router-link class="list__link" to="/contact">Контакты</router-link>
                         </li>
                         <li class="list__item">
                             <router-link class="list__link" to="/">Проекты</router-link>
@@ -32,7 +32,7 @@
 
 </script>
 
-<style>
+<style scoped>
 
 .navigation{
     border-top: black 1px solid;
