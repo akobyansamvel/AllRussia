@@ -73,6 +73,7 @@ export default {
 <style scoped>
 
 .container {
+  //sad
   margin: 0 auto;
   margin-top: 80px;
   max-width: 1400px;
