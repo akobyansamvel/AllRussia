@@ -8,24 +8,24 @@ export default {
 <template>
   <div class="container">
     <div class="item item_1">
-      <img class="item_1-img" src="@/assets/images/syrikaty-2%201.png" alt="">
+      <img class="item_1-img" src="@/assets/syrikaty-2%201.png" alt="">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
     </div>
     <div class="item item_2">
-      <img src="@/assets/images/prem1%20(2).png" alt="">
+      <img src="@/assets/prem1%20(2).png" alt="">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
     </div>
     <div class="item item_3">
-      <img src="@/assets/images/prem1%20(3).png" alt="">
+      <img src="@/assets/prem1%20(3).png" alt="">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
     </div>
     <div class="item item_4">
-      <img src="@/assets/images/prem1%20(4).png" alt="">
+      <img src="@/assets/prem1%20(4).png" alt="">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
     </div>
     <div class="item item_5">
-      <img src="@/assets/images/prem1%20(1).png" alt="">
+      <img src="@/assets/prem1%20(1).png" alt="">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
     </div>
   </div>

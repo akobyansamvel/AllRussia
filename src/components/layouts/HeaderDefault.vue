@@ -3,7 +3,7 @@
     <header class="header">
       <div class="item item_1">
         <a href="/">
-          <img src="@/assets/icons/hamburger.svg" alt="ham" style="width: 33px; height: 24px">
+          <img src="@/assets/hamburger.svg" alt="ham" style="width: 33px; height: 24px">
         </a>
         <span class="header__logo">ALLRUSSIA</span>
 

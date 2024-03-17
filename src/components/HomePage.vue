@@ -10,12 +10,12 @@
 </template>
 
 <script>
-import mainEconomic from '@/components/Home/mainEconomic.vue';
-import MainSection from '@/components/Home/mainSection.vue';
-import mainGrid from '@/components/Home/mainGrid.vue';
-import mainPolitic from '@/components/Home/mainPolitic.vue';
-import mainTeach from '@/components/Home/mainTeach.vue';
-import mainCulture from '@/components/Home/mainCulture.vue';
+import mainEconomic from '@/components/mainEconomic.vue';
+import MainSection from '@/components/mainSection.vue';
+import mainGrid from '@/components/mainGrid.vue';
+import mainPolitic from '@/components/mainPolitic.vue';
+import mainTeach from '@/components/mainTeach.vue';
+import mainCulture from '@/components/mainCulture.vue';
 
 export default {
   name: 'MainPage',

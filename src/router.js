@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from './pages/HomePage.vue';
-import ArticlePolitic from './pages/ArticlePage.vue';
-import AboutPortal from './pages/AboutPage.vue';
-import Contact from './pages/ContactPage.vue';
-import MoscowScreen from './pages/MoscowScreen.vue';
+import Home from '@/components/HomePage.vue';
+import ArticlePolitic from '@/components/ArticlePage.vue';
+import AboutPortal from '@/components/AboutPage.vue';
+import Contact from '@/components/ContactPage.vue';
+import MoscowScreen from '@/components/MoscowScreen.vue';
 import '@/styles/main.css'
 
 

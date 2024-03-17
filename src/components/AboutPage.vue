@@ -109,7 +109,7 @@ justify-content: center;
 }
 .block-title {
   margin-right: auto;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 .red-line {
   width: 80px;

@@ -23,7 +23,7 @@ export default {
   align-items: center;
   width: 100%;
   height: 685px;
-  background-image: url("@/assets/images/main.png");
+  background-image: url("@/assets/main.png");
   background-size: cover; /* Убедитесь, что изображение полностью покрывает область */
   background-position: center; /* Центрирует изображение */
 }
