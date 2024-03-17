@@ -1,19 +1,19 @@
 <template>
   <div id="app">
-    <HeaderSide></HeaderSide>
+    <HeaderDefault></HeaderDefault>
     <router-view></router-view>
-    <FooterSide></FooterSide>
+    <FooterDefault></FooterDefault>
   </div>
 </template>
 
 <script>
-import FooterSide from "./components/layouts/FooterSide.vue"
-import HeaderSide from "./components/layouts/HeaderSide.vue"
+import HeaderDefault from "./components/layouts/HeaderDefault.vue"
+import FooterDefault from "./components/layouts/FooterDefault.vue"
 export default {
   name: 'App',
   components: {
-    FooterSide,
-    HeaderSide
+    FooterDefault,
+    HeaderDefault
   }
 }
 </script>
