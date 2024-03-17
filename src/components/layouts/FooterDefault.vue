@@ -3,7 +3,7 @@
         <footer class="footer">
           <div class="footer__wrapper wrapper">
             <div class="footer__logo logo">
-              <img class="logo__img" src="../../assets/logo.svg" alt="ALLRUSSIA">
+              <img class="logo__img" src="" alt="ALLRUSSIA">
             </div>
             <div class="footer__list list">
               <div class="list__contact contact line-top">

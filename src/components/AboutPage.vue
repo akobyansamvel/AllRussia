@@ -84,7 +84,6 @@ export default {
   color: white;
   height: 685px;
   align-items: center;
-  background-image:url('../assets/city.png') ;
 }
 .text {
  font-size: 200px;
@@ -110,7 +109,7 @@ justify-content: center;
 }
 .block-title {
   margin-right: auto;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 .red-line {
   width: 80px;

@@ -11,7 +11,7 @@
             Столица рф
           </p>
           <div class="top__card card">
-            <img class="card__img" src="../assets/moscow.png" alt="">
+            <img class="card__img" src="" alt="">
             <div class="card__box">
               <p class="card__headding">
                 Москва
@@ -35,7 +35,7 @@
           </p>
           <div class="bottom__list-cards">
             <div class="bottom__card card">
-              <img class="card__img" src="../assets/smolensk.png" alt="">
+              <img class="card__img" src="" alt="">
               <div class="card__box">
                 <p class="card__headding">
                   Москва
@@ -52,7 +52,7 @@
               </div>
             </div>
             <div class="bottom__card card">
-              <img class="card__img" src="../assets/smolensk.png" alt="">
+              <img class="card__img" src="" alt="">
               <div class="card__box">
                 <p class="card__headding">
                   Москва
@@ -69,7 +69,7 @@
               </div>
             </div>
             <div class="bottom__card card">
-              <img class="card__img" src="../assets/smolensk.png" alt="">
+              <img class="card__img" src="" alt="">
               <div class="card__box">
                 <p class="card__headding">
                   Москва
@@ -86,7 +86,7 @@
               </div>
             </div>
             <div class="bottom__card card">
-              <img class="card__img" src="../assets/smolensk.png" alt="">
+              <img class="card__img" src="" alt="">
               <div class="card__box">
                 <p class="card__headding">
                   Москва
@@ -129,7 +129,6 @@ p{
 
 /* banner */
 .banner{
-  background: url(../assets/banner.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   min-height: 340px;
