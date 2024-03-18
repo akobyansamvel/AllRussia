@@ -7,10 +7,10 @@
 <template>
 
   <div class="header__help">
-    <p class="header_item">USD 81,95 <span class="item_dang">-0,02</span></p>
-    <p class="header_item">EUR 89,99 <span class="item_acc">+0,41</span></p>
-    <p class="header_item">CNY 11,87 <span class="item_acc">+0,02</span></p>
-    <p class="header_item">USD 81,95 <span class="item_acc">+0,03</span></p>
+    <p class="header_item">USD 81,95 <span class="item_dang">-0,02  <img src="@/assets/Arrow%201.png"></span></p>
+    <p class="header_item">EUR 89,99 <span class="item_acc">+0,41  <img src="@/assets/Arrow%201(1).png"></span></p>
+    <p class="header_item">CNY 11,87 <span class="item_acc">+0,02  <img src="@/assets/Arrow%201(1).png"></span></p>
+    <p class="header_item">USD 81,95 <span class="item_acc">+0,03  <img src="@/assets/Arrow%201(1).png"></span></p>
   </div>
 
 </template>
@@ -36,6 +36,11 @@
   .item_acc{
     padding-left: 7px;
     color: #4BFF68;
+  }
+
+  img {
+    width: 10px;
+    height: 10px;
   }
 
 </style>

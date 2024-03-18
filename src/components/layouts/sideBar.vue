@@ -7,7 +7,6 @@
 <template>
   <div class="container">
     <ul>
-      <li class="logo"><a href="/">ALLRUSSIA</a></li>
       <li>
         <img src="@/assets/loop.svg" alt="" class="sideBar-img">
       </li>
@@ -33,10 +32,18 @@
       <li class="sideVar-item-three"><a href="/">СВЯЗАТЬСЯ С НАМИ</a></li>
     </ul>
     <ul class="sideBar_logos">
-      <li class="sideBar_logos-item"></li>
-      <li class="sideBar_logos-item"></li>
-      <li class="sideBar_logos-item"></li>
-      <li class="sideBar_logos-item"></li>
+      <li class="sideBar_logos-item">
+        <img src="@/assets/facebook.png">
+      </li>
+      <li class="sideBar_logos-item">
+        <img src="@/assets/telegram%201.png">
+      </li>
+      <li class="sideBar_logos-item">
+        <img src="@/assets/youtube-youtube%201.png">
+      </li>
+      <li class="sideBar_logos-item">
+        <img src="@/assets/livejournal-svgrepo-com%201.png">
+      </li>
     </ul>
   </div>
 </template>
@@ -88,6 +95,15 @@ li {
   margin-left: 40px;
   height: 2px; /* Толщина линии */
   background-color: #FFFFFF; /* Цвет линии */
+}
+.sideVar-item-three{
+  opacity: 0.7;
+}
+.sideBar_logos {
+  display: flex;
+}
+.sideBar_logos-item {
+  padding-right: 10px;
 }
 
 </style>
