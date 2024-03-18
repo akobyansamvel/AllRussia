@@ -9,7 +9,7 @@ export default {
   <div style="margin-bottom: 32px">
     <div class="horizontal-line"></div>
     <div class="red-rectangle"></div>
-    <p>Политика</p>
+    <h3 >ПОЛИТИКА</h3>
 
     <div class="container">
       <div class="item item_1">
@@ -43,6 +43,7 @@ export default {
 .item_1 {
   display: flex;
   justify-content: space-between;
+  margin-right: 30px;
 }
 .item_2 {
   display: flex;
@@ -54,7 +55,7 @@ h3 {
 }
 .item_1-txt {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 26px;
   margin-bottom: 20px;
 }
@@ -71,12 +72,16 @@ h3 {
   height: 8px; /* высота прямоугольника */
   background-color: #AA0000; /* цвет фона прямоугольника */
   margin-left: 60px;
-  margin-bottom: 18px; /* изменено с 43px на 18px */
+  margin-bottom: 10px;
 }
 
 .asd {
   max-width: 223px;
   padding-right: 20px;
+}
+h3 {
+  margin: 0 0 0 58px;
+  font-size: 24px;
 }
 
 

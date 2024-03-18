@@ -29,6 +29,8 @@ export default {
       </div>
     </div>
     <div class="item item_2">
+      <div class="horizontal-line"></div>
+      <div class="red-rectangle"></div>
       <h3 class="item_2-title">
         Последние новости
       </h3>
@@ -36,18 +38,24 @@ export default {
       <p class="item_2-subtitle">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
       </p>
+      <p class="asd">17 минут назад</p>
+      <div class="diviver"></div>
       <p class="item_2-list">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
       </p>
+      <div class="diviver"></div>
       <p class="item_2-list">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
       </p>
+      <div class="diviver"></div>
       <p class="item_2-list">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
       </p>
+      <div class="diviver"></div>
       <p class="item_2-list">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
       </p>
+      <div class="diviver"></div>
       <p class="item_2-list">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
       </p>
@@ -55,15 +63,15 @@ export default {
     </div>
     <div class="item item_3">
       <img src="@/assets/1.png" alt="">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+      <p class="dsa">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
     </div>
     <div class="item item_4">
       <img src="@/assets/2.png" alt="">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+      <p class="dsa">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
     </div>
     <div class="item item_5">
       <img src="@/assets/3.png" alt="">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+      <p class="dsa">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
     </div>
   </div>
 
@@ -93,31 +101,60 @@ export default {
   grid-row: 1/3;
 }
 
+.horizontal-line {
+  height: 1px;
+  width: 100%;
+  background-color: #000;
+  margin: 0 auto;
+}
+
 .vertical-line {
   height: 1px; /* Высота линии */
   width: 140px; /* Ширина линии */
   background-color: black; /* Цвет линии */
-  margin: 0 auto; /* Центрирование линии по горизонтали, если нужно */
+  opacity: 0.4;
+}
+.diviver {
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
+.item_2-subtitle {
+  font-size: 18px;
+  font-weight: 600;
 }
 
-
+.asd {
+  color: #AA0000;
+  font-size: 14px;
+}
+.dsa {
+  font-weight: 600;
+  font-size: 18px;
+}
+.red-rectangle {
+  width: 88px;
+  height: 8px;
+  background-color: #AA0000;
+}
 
 
 
 .item_1-title {
+  margin: 0;
   width: 300px;
-  font-size: 18px;
-  padding: 30px  10px 10px 10px;
+  font-size: 20px;
+  padding: 0 10px 10px 10px;
 }
 .item_1-subtitle {
   padding: 0 10px 10px 10px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .item_1-text {
   padding: 10px 10px 10px 10px;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .item_1-list {

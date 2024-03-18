@@ -6,7 +6,7 @@
       <main-politic></main-politic>
       <main-teach></main-teach>
       <main-culture/>
-      <NavigationBar/>
+      <main-theme/>
     </div>
 </template>
 
@@ -17,10 +17,10 @@ import mainGrid from '@/components/mainGrid.vue';
 import mainPolitic from '@/components/mainPolitic.vue';
 import mainTeach from '@/components/mainTeach.vue';
 import mainCulture from '@/components/mainCulture.vue';
-import NavigationBar from '@/components/NavigationBar.vue';
+import mainTheme from "@/components/mainTheme.vue";
 export default {
   name: 'MainPage',
-  components: { MainSection, mainGrid, mainEconomic, mainPolitic, mainTeach, mainCulture, NavigationBar },
+  components: { MainSection, mainGrid, mainEconomic, mainPolitic, mainTeach, mainCulture, mainTheme },
 }
 </script>
 

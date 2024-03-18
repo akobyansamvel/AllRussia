@@ -2,9 +2,13 @@
   <div>
     <header class="header">
       <div class="item item_1">
-        <a href="/">
-          <img src="@/assets/hamburger.svg" alt="ham" style="width: 33px; height: 24px">
-        </a>
+        <button class="header__btn" @click="showSideBar = !showSideBar">
+          <div class="menu-icon" :class="{'open': showSideBar}">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button >
         <span class="header__logo">ALLRUSSIA</span>
 
       </div>
@@ -24,27 +28,41 @@
         <div class="search-box">
           <input
             type="text"
-            v-model="searchQuery"
-            placeholder="Поиск..."
+            placeholder="Поиск"
             class="search-input"
           />
         </div>
-          RU AR
+        <img src="@/assets/loop.svg" class="loop">
+        <img class="img" src="@/assets/yarussski.png" alt="">
       </div>
 
     </header>
+
     <div class="divider"></div>
-  <header-help></header-help>
+
+    <HeaderHelp/>
+    <div class="content" :class="{'open' :showSideBar}">
+      <SideBar v-if="showSideBar"/>
+    </div>
+
+
   </div>
 </template>
 
 <script>
 import HeaderHelp from '@/components/layouts/headerHelp.vue';
+import SideBar from "@/components/layouts/sideBar.vue";
 
 export default {
-name: 'HeaderSide',
-  components: { HeaderHelp }
+  data: () => {
+    return {
+      showSideBar: false
 
+    }
+  },
+
+name: 'HeaderSide',
+  components: { HeaderHelp, SideBar }
 }
 </script>
 
@@ -58,9 +76,41 @@ name: 'HeaderSide',
   background-color: #222222;
   color: #FFFFFF;
   height: 70px;
+  position: fixed; /* Добавляем это свойство */
+  top: 0; /* Устанавливаем заголовок в верхней части страницы */
+  left: 0; /* Растягиваем заголовок на всю ширину слева */
+  right: 0; /* Растягиваем заголовок на всю ширину справа */
+  z-index: 1000; /* Убедитесь, что заголовок находится поверх других элементов */
+}
+.menu-icon {
+  padding-left: 26px;
+}
+.img {
+  padding-right: 70px;
+}
+.menu-icon span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  background: #FFFFFF;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-icon.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-icon.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -8px);
 }
 
 .header__logo {
+  padding-right: 26px;
   font-size: 36px;
 }
 
@@ -83,24 +133,47 @@ name: 'HeaderSide',
   justify-content: space-between;
   align-items: center;
 }
-.vertical-line {
-  width: 1px;        /* Толщина линии */
-  height: 40px;      /* Длина линии */
-  background-color: #FFFFFF; /* Цвет линии */
-}
 
 .search-input {
+  margin-left: 26px;
   width: 237px;
-  height: 42px;
+  height: 33px;
   font-size: 16px;
+  padding-left: 40px;
   color: #FFFFFF;
   background-color: #333333;
   border: none;
 }
 
 .divider {
-  height: 2px; /* Толщина линии */
+  height: 71px; /* Толщина линии */
   background-color: #FFFFFF; /* Цвет линии */
+}
+
+.header__btn {
+  border: none; /* Убираем стандартные границы кнопки */
+  cursor: pointer; /* Добавляем стиль курсора, указывающего на возможность клика */
+  background-color: transparent; /* Делаем фон кнопки прозрачным */
+  padding: 0; /* Убираем внутренние отступы */
+}
+
+.image-button img {
+  width: 50px; /* Устанавливаем желаемую ширину изображения */
+  height: auto; /* Автоматически рассчитываем высоту, чтобы сохранить пропорции */
+  display: block; /* Убираем возможные отступы вокруг изображения */
+}
+
+.content {
+  transition: transform 0.3s ease-out;
+}
+.loop {
+  position: absolute;
+  right: calc(403px - 26px);
+  top: 27px;
+  cursor: pointer;
+}
+
+.open {
 }
 
 

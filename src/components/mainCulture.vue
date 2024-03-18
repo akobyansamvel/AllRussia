@@ -8,6 +8,7 @@ export default {
   <div >
     <div class="horizontal-line"></div>
     <div class="red-rectangle"></div>
+    <h3 >КУЛЬТУРА И ИСТОРИЯ</h3>v>
 
     <div class="container">
       <div class="item item_1">
@@ -54,7 +55,13 @@ export default {
   height: 8px; /* высота прямоугольника */
   background-color: #AA0000; /* цвет фона прямоугольника */
   margin-left: 60px;
-  margin-bottom: 18px; /* изменено с 43px на 18px */
+  margin-bottom: 10px;
 }
+h3 {
+  margin: 0 0 0 58px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
 
 </style>
